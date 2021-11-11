@@ -1,0 +1,3 @@
+org\example\tfj\common\bean\User.class
+org\example\tfj\common\exception\ResourceNotFoundException.class
+org\example\tfj\common\repository\UserRepository.class
