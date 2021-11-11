@@ -12,10 +12,10 @@ import java.io.Serializable;
 @ToString
 public class User implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Getter
     @Setter
-    private Long id;
+    private int id;
 
     @Getter
     @Setter
